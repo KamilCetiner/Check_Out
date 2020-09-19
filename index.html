@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    
+      rel="stylesheet">
+    
+    <title>Check Out</title>
+</head>
+<body>
+    
+    
+        <div class="main">
+            <h1>Checkout</h1>
+            <form action="#">
+                <div class="container">
+                <h2>Contact information</h2>
+                <label for="email" name="Email">Email</label>
+                    <div class="container email">
+                        <input type="email" id="email" name="email" placeholder="Enter your email...">
+                        <span class="material-icons">email</span>
+                    </div>
+                <label for="phone" name="phone">Phone</label>
+                    <div class="container phone">
+                        <input type="number" id="phone" name="phone" placeholder="Enter your phone...">
+                        <span class="material-icons">local_phone</span>
+                    </div>
+
+                <h2>Shipping adress</h2>
+
+                <label for="name" name="name">Full name</label>
+                    <div class="container name">
+                        <input type="text" id="name" name="name" placeholder="Enter your fullname...">
+                        <span class="material-icons">person</span>
+                    </div>
+                <label for="address" name="adress">Address</label>
+                    <div class="container address">
+                        <input type="text" id="address" name="address" placeholder="Enter your address...">
+                        <span class="material-icons">home</span>
+                    </div>
+                <label for="cıty" name="city">City</label>
+                    <div class="container city">
+                        <input type="text" id="city" name="city" placeholder="Enter your city...">
+                        <span class="material-icons">apartment</span>
+                    </div>
+
+                <label for="country">Country</label>
+                    <div class="container country">
+                        <select name="country" id="country" class="container country">
+                            <option value="Canada">Canada</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="United States">United States</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                        </select>
+                        <span class="material-icons">public</span>
+                    
+
+                
+                    
+                    <div class="container postcode">
+                    <label for="postcode">Post Code</label>
+                    <input type="text" id="post_code" pattern="[0-9]{5}" title="Five digit zip code" placeholder="Enter your postal code..." />
+                    <span class="material-icons">place</span>
+
+                    </div>
+                <label for="confirm" name="confirm">See this information next time </label>
+
+                <div class="container confirm">
+                    <input type="checkbox" id="confirm" />
+                </div>
+
+                <div class="container submit">
+                    <input type="submit" value="Continue">
+                </div>
+                    
+
+            </form>
+                    
+        </div>
+
+        <div class="products">
+            <div class="products Backbag">
+                <img src="./images/photo1.png" alt="Vintage Backbag">
+                <h3>Vintage Backbag</h3>
+                <h4>$54.99</h4><h5>$94.99</h5>           
+                
+                <div class="buttons">
+                    <span class="material-icons">remove_circle</span>
+                    <input type="text" value="1" class="count" />
+                    <span class="material-icons">add_box</span>
+                </div>
+
+                
+            </div>
+
+            </div>
+        
+            <div class="products">
+                <div class="products Shoes">
+                    <img src="./images/photo2.png" alt="Levi Shoes">
+                    <h3>Levi Shoes</h3>
+                    <h4>$74.99</h4><h5>$124.99</h5>
+
+                    <div class="buttons">
+                        <span class="material-icons">remove_circle</span>
+                        <input type="text" value="1" class="count" />
+                        <span class="material-icons">add_box</span>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Continue">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        
+        
+</body>
+</html>
